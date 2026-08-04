@@ -56,10 +56,12 @@
             .col.mb-3.mb-sm-0
               p.mb-0 Ingresando al siguiente video, podrá conocer de manera puntual lo relacionado con la segmentación de mercados, información que complementará lo abordado en esta temática:
             .col-sm-auto
-              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/watch?v=rnd" target="_blank")
+              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/embed/rndPdop69X0" target="_blank")
                 span Abrir video
                 i.fas.fa-file-video
 
+    p.mb-4 En este contexto, la siguiente figura presenta el proceso de segmentación y perfilado de audiencias como base para la toma de decisiones en la comunicación digital, mostrando cómo la identificación de los diferentes públicos facilita la definición de contenidos, plataformas y estrategias de interacción acordes con sus características:
+    
     .row.justify-content-center.figura-flujo-ajuste(data-aos="flip-up")
       .col-lg-12.col-12
         .titulo-sexto.color-acento-contenido

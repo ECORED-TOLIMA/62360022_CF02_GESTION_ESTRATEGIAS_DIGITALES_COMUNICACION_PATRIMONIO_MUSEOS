@@ -122,8 +122,8 @@
       .col.col-lg-7.col-12.order-lg-2.order-2
         p Por su parte, la distribución corresponde a las acciones mediante las cuales los contenidos son publicados y difundidos en diferentes plataformas digitales. Este proceso requiere seleccionar los canales más adecuados, definir los formatos de presentación y establecer momentos oportunos para la publicación.
         .cajon.cajon.C07.px-4.py-4.mb-4
-          p.mb-0 Una misma información puede presentarse de diversas maneras según las características de cada medio. Por ejemplo, un contenido desarrollado para un sitio web puede adaptarse posteriormente a publicaciones breves, recursos audiovisuales o piezas gráficas para otros canales institucionales.
-        p Cuando los materiales se encuentran organizados y distribuidos de manera coherente, aumentan las posibilidades de acceso a la información, se mejora la experiencia de consulta y el aprovechamiento de los recursos digitales producidos por la institución
+          p.mb-0 Una misma información puede presentarse de diversas maneras según las características de cada medio. Por ejemplo, un contenido desarrollado para un sitio <em>web</em> puede adaptarse posteriormente a publicaciones breves, recursos audiovisuales o piezas gráficas para otros canales institucionales.
+        p Cuando los materiales se encuentran organizados y distribuidos de manera coherente, aumentan las posibilidades de acceso a la información, se mejora la experiencia de consulta y el aprovechamiento de los recursos digitales producidos por la institución.
 
     Separador
 
@@ -236,66 +236,49 @@
             .col.col-lg-11.col-12.order-lg-2.order-2
               p.mb-0 La aplicación de estas prácticas favorece una gestión más responsable de los contenidos culturales y promueve una percepción positiva de los espacios digitales administrados por museos e instituciones culturales.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </template>
 
 <script>
+import img08 from '@/assets/curso/temas/t5/img-08.png'
+import img09 from '@/assets/curso/temas/t5/img-09.png'
+import img10 from '@/assets/curso/temas/t5/img-10.png'
+
 export default {
   name: 'Tema5',
+
   data: () => ({
     indicadorTarjetaFlip: true,
     indicadorTarjetaSlide: true,
     mostrarIndicadorTarjetaAudio: true,
+
     datosSlyder: [
       {
         titulo: 'Clasificación temática',
         texto:
           'Permite agrupar los contenidos de acuerdo con temas, proyectos, colecciones o líneas de trabajo institucional. Esta organización facilita la planificación de las publicaciones, mejora la coherencia entre los diferentes materiales y permite que los usuarios identifiquen con mayor facilidad la información relacionada con un mismo eje temático.',
-        imagen: new URL('@/assets/curso/temas/t5/img-08.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: img08,
       },
       {
         titulo: 'Etiquetado y descripción',
         texto:
           'Facilita la búsqueda y localización de los materiales mediante palabras clave, categorías de identificación y descripciones claras. Una adecuada asignación de etiquetas favorece la recuperación de la información, optimiza la navegación en los repositorios digitales y mejora la experiencia de consulta de las audiencias.',
-        imagen: new URL('@/assets/curso/temas/t5/img-09.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: img09,
       },
       {
         titulo: 'Actualización periódica',
         texto:
           'Contribuye a mantener la vigencia de la información y evita la acumulación de contenidos desactualizados. La revisión continua de los materiales permite incorporar nuevos recursos, corregir información cuando sea necesario y garantizar que los contenidos publicados respondan a las necesidades e intereses actuales de los públicos.',
-        imagen: new URL('@/assets/curso/temas/t5/img-10.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: img10,
       },
     ],
   }),
+
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
   },
+
   updated() {
     this.$aosRefresh()
   },

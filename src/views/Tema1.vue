@@ -102,7 +102,7 @@
                 th(style="width: 20%; background-color: #F9E7E7;") Ejemplos de uso en instituciones culturales
             tbody
               tr(data-aos="fade-right")
-                td(style="background-color: #F6F6F6;") Sitios web institucionales.
+                td(style="background-color: #F6F6F6;") Sitios <em>web</em> institucionales.
                 td(style="background-color: #F6F6F6;") Centralizar y organizar información institucional.
                 td(style="background-color: #F6F6F6;") Permiten publicar contenidos extensos, estructurar recursos por secciones y ofrecer acceso permanente a información especializada.
                 td(style="background-color: #F6F6F6;") Publicación de colecciones digitales, agenda de actividades, exposiciones virtuales y recursos educativos.
@@ -232,68 +232,67 @@
   </template>
 
 <script>
+import img07 from '@/assets/curso/temas/t1/img-07.png'
+import img08 from '@/assets/curso/temas/t1/img-08.png'
+import img09 from '@/assets/curso/temas/t1/img-09.png'
+import img10 from '@/assets/curso/temas/t1/img-10.png'
+import img11 from '@/assets/curso/temas/t1/img-11.png'
+import img12 from '@/assets/curso/temas/t1/img-12.png'
+
 export default {
   name: 'Tema1',
+
   data: () => ({
     indicadorTarjetaFlip: true,
     indicadorTarjetaSlide: true,
     mostrarIndicadorTarjetaAudio: true,
+
     datosSlyder: [
       {
-        titulo: 'Sitios web institucionales',
+        titulo: 'Sitios <em>web</em> institucionales',
         texto:
           'Concentran información permanente sobre la organización, sus colecciones, proyectos, actividades y recursos educativos. Además, ofrecen acceso organizado a contenidos especializados y facilitan la consulta de información institucional.',
-        imagen: new URL('@/assets/curso/temas/t1/img-07.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: img07,
       },
       {
         titulo: 'Redes sociales',
         texto:
           'Facilitan la circulación rápida de información y la interacción con los públicos mediante publicaciones, comentarios y mensajes. También permiten promover actividades, fortalecer la participación y ampliar el alcance de los contenidos culturales.',
-        imagen: new URL('@/assets/curso/temas/t1/img-08.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: img08,
       },
       {
         titulo: 'Plataformas audiovisuales',
         texto:
           'Permiten compartir videos, transmisiones en vivo, entrevistas, documentales y recursos educativos. Estos formatos favorecen la difusión de contenidos dinámicos y enriquecen la experiencia de aprendizaje de las audiencias.',
-        imagen: new URL('@/assets/curso/temas/t1/img-09.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: img09,
       },
       {
         titulo: 'Plataformas de audio',
         texto:
           'Facilitan la distribución de podcasts, relatos sonoros, entrevistas y programas especializados. Constituyen una alternativa accesible para divulgar contenidos culturales mediante narraciones y recursos basados en la escucha.',
-        imagen: new URL('@/assets/curso/temas/t1/img-10.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: img10,
       },
       {
         titulo: 'Repositorios y bibliotecas digitales',
         texto:
           'Permiten almacenar, conservar y poner a disposición documentos, imágenes, publicaciones y recursos patrimoniales. Asimismo, facilitan la consulta, recuperación y preservación de información para fines educativos, culturales e investigativos.',
-        imagen: new URL('@/assets/curso/temas/t1/img-11.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: img11,
       },
       {
         titulo: 'Recorridos y experiencias interactivas',
         texto:
           'Ofrecen formas de exploración autónoma mediante visitas virtuales, mapas interactivos y recorridos digitales. Estas herramientas promueven una experiencia participativa que acerca el patrimonio cultural a diversos públicos.',
-        imagen: new URL('@/assets/curso/temas/t1/img-12.png', import.meta.url)
-          .href,
-        // leyendaImagen: 'Leyenda_de_la_imagen',
+        imagen: img12,
       },
     ],
   }),
+
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
   },
+
   updated() {
     this.$aosRefresh()
   },

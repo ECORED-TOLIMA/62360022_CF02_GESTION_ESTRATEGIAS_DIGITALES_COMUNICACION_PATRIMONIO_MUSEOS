@@ -47,7 +47,7 @@
           PasosA.color-acento-contenido.mb-5(tipo="l")
             .row.justify-content-center
               .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-                h3 Publicaciones breves (posts)
+                h3 Publicaciones breves (<em>posts</em>)
                 p.mb-0 Permiten difundir información puntual sobre actividades, exposiciones, efemérides o piezas museísticas mediante mensajes concisos respaldados por elementos visuales. Favorecen una comunicación ágil y mantienen informados a los diferentes públicos sobre las acciones de la institución.
               .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
                 img(src='@/assets/curso/temas/t2/img-03.png', alt="")
@@ -99,7 +99,7 @@
                 th(style="width: 20%; background-color: #F9E7E7;") Ventajas
             tbody
               tr(data-aos="fade-right")
-                td(style="background-color: #F6F6F6;") Publicaciones digitales (posts).
+                td(style="background-color: #F6F6F6;") Publicaciones digitales (<em>posts</em>).
                 td(style="background-color: #F6F6F6;") Mensajes breves acompañados de imágenes, ilustraciones o gráficos.
                 td(style="background-color: #F6F6F6;") Difusión de actividades, efemérides, piezas destacadas, noticias y campañas culturales.
                 td(style="background-color: #F6F6F6;") Permiten comunicar información de forma rápida y alcanzar amplias audiencias.
