@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
-    
+    p El componente formativo desarrolla los fundamentos de la gestión de plataformas digitales para la divulgación del patrimonio cultural, abordando las características de los canales de comunicación, la producción y adaptación de contenidos, así como el análisis de las audiencias y las comunidades digitales. Además, presenta los principios que orientan la interacción en los entornos virtuales, incluyendo los protocolos de comunicación, la netiqueta y la gestión de conversaciones con los públicos.
+    p.mb-4 Posteriormente, profundiza en la administración de contenidos para museos e instituciones culturales, considerando la relación entre plataformas, contenidos y públicos, la organización y distribución de los recursos digitales, la coherencia comunicativa y las buenas prácticas que favorecen una comunicación cultural planificada, responsable y orientada a fortalecer el acceso y la participación de las audiencias.
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="El componente formativo desarrolla los fundamentos de la gestión de plataformas digitales para la divulgación del patrimonio cultural, abordando las características de los canales de comunicación, la producción y adaptación de contenidos, así como el análisis de las audiencias y las comunidades digitales. Además, presenta los principios que orientan la interacción en los entornos virtuales, incluyendo los protocolos de comunicación, la netiqueta y la gestión de conversaciones con los públicos. Posteriormente, profundiza en la administración de contenidos para museos e instituciones culturales, considerando la relación entre plataformas, contenidos y públicos, la organización y distribución de los recursos digitales, la coherencia comunicativa y las buenas prácticas que favorecen una comunicación cultural planificada, responsable y orientada a fortalecer el acceso y la participación de las audiencias.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
