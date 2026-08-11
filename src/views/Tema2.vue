@@ -46,27 +46,27 @@
         .contenido-interno
           PasosA.color-acento-contenido.mb-5(tipo="l")
             .row.justify-content-center
-              .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
+              .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
                 h3 Publicaciones breves (<em>posts</em>)
                 p.mb-0 Permiten difundir información puntual sobre actividades, exposiciones, efemérides o piezas museísticas mediante mensajes concisos respaldados por elementos visuales. Favorecen una comunicación ágil y mantienen informados a los diferentes públicos sobre las acciones de la institución.
-              .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+              .col-lg-5.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
                 img(src='@/assets/curso/temas/t2/img-03.png', alt="")
             .row.justify-content-center
-              .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+              .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="fade-right")
                 img(src='@/assets/curso/temas/t2/img-04.png', alt="")
-              .col-lg-8(data-aos="fade-left")
+              .col-lg-7(data-aos="fade-left")
                 h3 Contenido audiovisual
                 p.mb-0 El video ocupa un lugar destacado gracias a su potencia narrativa. Facilita la transmisión de relatos, entrevistas, procesos de conservación o recorridos mediados, acercando los contenidos a públicos heterogéneos mediante experiencias dinámicas que integran imagen, sonido y movimiento.
             .row.justify-content-center
-              .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
+              .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
                 h3 Infografías
                 p.mb-0 Son recursos útiles para sintetizar información compleja y representar visualmente conceptos, líneas temporales o datos. Su estructura dinámica agiliza la consulta mediante diagramas, iconos y esquemas gráficos que favorecen la comprensión y retención de la información.
-              .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+              .col-lg-5.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
                 img(src='@/assets/curso/temas/t2/img-05.png', alt="")
             .row.justify-content-center
-              .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+              .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="fade-right")
                 img(src='@/assets/curso/temas/t2/img-06.png', alt="")
-              .col-lg-8(data-aos="fade-left")
+              .col-lg-7(data-aos="fade-left")
                 h3 Formatos sonoros (pódcast)
                 p.mb-0 Ofrecen una alternativa centrada en la escucha. A través de este medio se comparten testimonios, relatos de memoria o análisis especializados que las audiencias pueden consumir de forma asincrónica, facilitando el acceso a contenidos culturales en diferentes momentos y contextos.
 

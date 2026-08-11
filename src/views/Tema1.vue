@@ -30,25 +30,25 @@
 
     .row.justify-content-center.mb-4(data-aos="flip-down")
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
-        .crd.crd--grayGrad
+        .crd.crd--grayGrad.crd--fondo-t1
           figure.mb-4
             img(src="@/assets/curso/temas/t1/img-02.svg", alt="alt").img80.m-auto
           h4.text-center Publicación de contenidos
           p.mb-0 Permiten difundir textos, imágenes, videos, audios y recursos interactivos.
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
-        .crd.crd--grayGrad
+        .crd.crd--grayGrad.crd--fondo-t1
           figure.mb-4
             img(src="@/assets/curso/temas/t1/img-03.svg", alt="alt").img80.m-auto
           h4.text-center Organización de información
           p.mb-0 Facilitan la clasificación y consulta de colecciones, documentos y materiales educativos.
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
-        .crd.crd--grayGrad
+        .crd.crd--grayGrad.crd--fondo-t1
           figure.mb-4
             img(src="@/assets/curso/temas/t1/img-04.svg", alt="alt").img80.m-auto
           h4.text-center Acceso a recursos culturales
           p.mb-0 Amplían las posibilidades de consulta para personas ubicadas en distintos contextos geográficos.
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
-        .crd.crd--grayGrad
+        .crd.crd--grayGrad.crd--fondo-t1
           figure.mb-4
             img(src="@/assets/curso/temas/t1/img-05.svg", alt="alt").img80.m-auto
           h4.text-center Interacción con los públicos
