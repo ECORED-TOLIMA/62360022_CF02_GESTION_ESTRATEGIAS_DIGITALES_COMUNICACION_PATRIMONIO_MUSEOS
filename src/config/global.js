@@ -287,35 +287,35 @@ export default {
   referencias: [
     {
       referencia:
-        'Falk, J. H. (2009). <em>Identity and the museum visitor experience.</em> Left Coast Press.',
+        'Falk, J. H. (2009). Identity and the museum visitor experience. Left Coast Press.',
     },
     {
       referencia:
-        'Jenkins, H. (2008). <em>Convergence culture: La cultura de la convergencia de los medios de comunicación.</em> Paidós.',
+        'Jenkins, H. (2008). Convergence culture: La cultura de la convergencia de los medios de comunicación. Paidós.',
     },
     {
       referencia:
-        'Kotler, N. Kotler, P. & Kotler, W. I. (2008). <em>Museum marketing and strategy: Designing missions, building audiences, generating revenue and resources</em> (2nd ed.). Jossey-Bass.',
+        'Kotler, N. Kotler, P. & Kotler, W. I. (2008). Museum marketing and strategy: Designing missions, building audiences, generating revenue and resources (2nd ed.). Jossey-Bass.',
     },
     {
       referencia:
-        'Macnamara, J. (2018). <em>Evaluating public communication: Exploring new models, standards, and best practice.</em> Routledge.',
+        'Macnamara, J. (2018). Evaluating public communication: Exploring new models, standards, and best practice. Routledge.',
     },
     {
       referencia:
-        'Parry, R. (Ed.). (2013). <em>Museums in a digital age.</em> Routledge.',
+        'Parry, R. (Ed.). (2013). Museums in a digital age. Routledge.',
     },
     {
       referencia:
-        'Scolari, C. A. (2013). <em>Narrativas transmedia: Cuando todos los medios cuentan.</em> Deusto.',
+        'Scolari, C. A. (2013). Narrativas transmedia: Cuando todos los medios cuentan. Deusto.',
     },
     {
       referencia:
-        'Tallon, L. & Walker, K. (Eds.). (2008). <em>Digital technologies and the museum experience: Handheld guides and other media.</em> AltaMira Press.',
+        'Tallon, L. & Walker, K. (Eds.). (2008). Digital technologies and the museum experience: Handheld guides and other media. AltaMira Press.',
     },
     {
       referencia:
-        'Wenger, E., McDermott, R., & Snyder, W. M. (2002). <em>Cultivating communities of practice: A guide to managing knowledge.</em> Harvard Business School Press.',
+        'Wenger, E., McDermott, R., & Snyder, W. M. (2002). Cultivating communities of practice: A guide to managing knowledge. Harvard Business School Press.',
     },
   ],
   creditos: [
