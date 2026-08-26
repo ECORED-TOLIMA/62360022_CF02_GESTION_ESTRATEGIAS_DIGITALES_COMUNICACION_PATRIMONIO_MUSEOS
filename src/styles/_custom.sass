@@ -431,6 +431,51 @@ figcaption
 .boton.color-acento-contenido.video, .color-acento-contenido.boton--sm
   background-color: #4D5198 !important
 
+.tarjeta.color-primario.video
+  background-color: #E8E8F4 !important
+
+  .boton.color-acento-contenido.video
+    width: fit-content
+    max-width: 100%
+    min-width: auto
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    gap: .5rem
+    padding: .75rem 1.4rem
+    white-space: nowrap
+
+.boton.color-acento-contenido.video, .color-acento-contenido.boton--sm
+  background-color: #4D5198 !important
+
+
+@media (max-width: 575.98px)
+  .tarjeta.color-primario.video
+    .row
+      row-gap: 1rem
+
+    p
+      text-align: left !important
+
+    .col-sm-auto
+      text-align: center
+
+    .boton.color-acento-contenido.video
+      width: fit-content !important
+      max-width: 100% !important
+      margin-left: auto
+      margin-right: auto
+      padding: .65rem 1.1rem !important
+      font-size: .95rem
+      line-height: 1.2
+      border-radius: 8px
+
+      span
+        white-space: nowrap
+
+      i
+        font-size: .95rem
+
 .tabla-a.color-acento-contenido thead
   border-color: #F9E7E7 !important
 
@@ -825,10 +870,9 @@ figcaption
   &__info
     grid-area: titulo
 
-    h5
+    p
       color: #12263F
-      font-weight: 700
-      font-style: italic
+      font-weight: normal
       margin-bottom: .3rem !important
 
     span
@@ -977,10 +1021,9 @@ figcaption
   &__info
     grid-area: titulo
 
-    h5
+    p
       margin-bottom: .35rem !important
-      font-style: italic
-      font-weight: 700
+      font-weight: normal
       color: #12263F
 
   &__barra
@@ -1092,7 +1135,7 @@ figcaption
   .podcast-recurso__contenido
     position: absolute !important
     left: 50% !important
-    bottom: 25px !important
+    bottom: 12px !important
     transform: translateX(-50%) !important
     width: 82% !important
     background-color: #FFFFFF !important
@@ -1121,6 +1164,9 @@ figcaption
   .podcast-recurso.podcast-recurso--final
     margin-top: 4.5rem !important
 
+    .podcast-recurso__contenido
+      bottom: 10px !important
+
     .podcast-recurso__imagen
       top: -35px !important
       width: 320px !important
@@ -1129,6 +1175,9 @@ figcaption
 @media (max-width: 575.98px)
   .podcast-recurso.podcast-recurso--final
     margin-top: 3.8rem !important
+
+    .podcast-recurso__contenido
+      bottom: 8px !important
 
     .podcast-recurso__imagen
       top: -25px !important
@@ -1140,13 +1189,9 @@ figcaption
     margin-top: 3.5rem !important
 
     .podcast-recurso__imagen
-      top: 0 !important
+      top: -18px !important
       width: 235px !important
       max-width: 82% !important
-      transform: translateX(-50%) !important
-
-    .podcast-recurso__contenido
-      bottom: 45px !important
 
 @media (max-width: 375px)
   .podcast-recurso.podcast-recurso--final
@@ -1157,143 +1202,240 @@ figcaption
       width: 215px !important
       max-width: 85% !important
 
-/* Ajuste responsive específico imagen pódcast */
-@media (min-width: 768px) and (max-width: 991.98px)
-  .podcast-recurso.podcast-recurso--final
-    .podcast-recurso__imagen
-      top: -55px !important
-      width: 340px !important
-      max-width: 62% !important
+/* Ajuste definitivo solo para pódcast Tema 7 */
+@media (max-width: 575.98px)
+  .podcast-recurso.podcast-recurso--final.podcast-recurso--tema7-mobile
+    height: 390px !important
+    min-height: 390px !important
+    max-height: 390px !important
+    margin-top: 5rem !important
+    padding: 0 !important
+    overflow: visible !important
+    background: linear-gradient(180deg, #CCD2C0 0%, #CCD2C0 42%, #E8E2CC 42%, #E8E2CC 100%) !important
+    border-radius: 34px 34px 0 0 !important
 
-@media (min-width: 426px) and (max-width: 767.98px)
-  .podcast-recurso.podcast-recurso--final
     .podcast-recurso__imagen
-      top: -35px !important
-      width: 280px !important
-      max-width: 75% !important
-      transform: translate(-50%, 12px) !important
-
-@media (max-width: 425px)
-  .podcast-recurso.podcast-recurso--final
-    .podcast-recurso__imagen
-      top: 0 !important
-      width: 235px !important
-      max-width: 82% !important
+      position: absolute !important
+      top: -42px !important
+      left: 50% !important
       transform: translateX(-50%) !important
+      width: 330px !important
+      max-width: 88% !important
+      z-index: 3 !important
 
-@media (max-width: 375px)
-  .podcast-recurso.podcast-recurso--final
-    .podcast-recurso__imagen
-      top: -18px !important
-      width: 245px !important
-      max-width: 85% !important
-
-@media (max-width: 375px)
-  .podcast-recurso--tema3-mobile
-    height: 360px !important
-    min-height: 360px !important
-    max-height: 360px !important
-    margin-top: 4.5rem !important
-    background: linear-gradient(180deg, #CCD2C0 0%, #CCD2C0 43%, #E8E2CC 43%, #E8E2CC 100%) !important
-
-    .podcast-recurso__imagen
-      top: -35px !important
-      width: 230px !important
-      max-width: 82% !important
-      transform: translateX(-50%) !important
+      img
+        width: 100% !important
+        height: auto !important
+        display: block !important
 
     .podcast-recurso__contenido
-      width: 90% !important
-      bottom: 20px !important
-      padding: .9rem !important
+      position: absolute !important
+      left: 50% !important
+      bottom: 30px !important
+      transform: translateX(-50%) !important
+      width: 86% !important
+      background-color: #FFFFFF !important
       border-radius: 18px !important
+      padding: 1rem 1rem 1.1rem !important
+      z-index: 4 !important
+      margin: 0 !important
+
+    .podcast-recurso__titulo
+      color: #12263F !important
+      font-weight: 700 !important
+      font-size: .95rem !important
+      line-height: 1.2 !important
+      margin-bottom: .45rem !important
 
     .podcast-recurso__audio
-      min-height: 92px !important
-      grid-template-columns: 1fr auto !important
+      min-height: 105px !important
+      display: grid !important
+      grid-template-columns: minmax(0, 1fr) 44px !important
       grid-template-areas: "titulo boton" "barra barra" !important
-      column-gap: .8rem !important
-      row-gap: .45rem !important
-      padding: .7rem .85rem !important
+      align-items: center !important
+      column-gap: .7rem !important
+      row-gap: .55rem !important
+      padding: .8rem .85rem !important
+      border: 3px solid #4D5198 !important
       border-radius: 28px !important
 
     .podcast-recurso__info
-      h5
-        font-size: .95rem !important
-        line-height: 1.15 !important
+      grid-area: titulo !important
+      min-width: 0 !important
+
+      p
+        color: #12263F !important
+        font-size: .88rem !important
+        line-height: 1.18 !important
         margin-bottom: 0 !important
 
     .podcast-recurso__barra
+      grid-area: barra !important
       width: 100% !important
       height: 6px !important
 
     .podcast-recurso__boton
+      grid-area: boton !important
       width: 42px !important
+      min-width: 42px !important
       height: 42px !important
 
-@media (max-width: 575.98px)
-  .row.justify-content-center.mb-4
-    > .col-lg-8.col-12
-      > .podcast-recurso.podcast-recurso--final
-        height: 330px !important
-        min-height: 330px !important
-        max-height: 330px !important
-        margin-top: 3rem !important
-        padding: 0 !important
-        overflow: visible !important
-        background: linear-gradient(180deg, #CCD2C0 0%, #CCD2C0 42%, #E8E2CC 42%, #E8E2CC 100%) !important
+      i
+        font-size: 1rem !important
 
-        .podcast-recurso__imagen
-          position: absolute !important
-          top: 6px !important
-          left: 50% !important
-          width: 250px !important
-          max-width: 78% !important
-          transform: translateX(-50%) !important
 
-          img
-            width: 100% !important
-            height: auto !important
-            display: block !important
+@media (max-width: 375px)
+  .podcast-recurso.podcast-recurso--final.podcast-recurso--tema7-mobile
+    height: 395px !important
+    min-height: 395px !important
+    max-height: 395px !important
 
-        .podcast-recurso__contenido
-          position: absolute !important
-          left: 50% !important
-          bottom: 48px !important
-          width: 88% !important
-          transform: translateX(-50%) !important
-          padding: .9rem !important
-          margin: 0 !important
-          border-radius: 18px !important
-          z-index: 2 !important
+    .podcast-recurso__imagen
+      top: -38px !important
+      width: 300px !important
+      max-width: 88% !important
 
-        .podcast-recurso__audio
-          min-height: 92px !important
-          display: grid !important
-          grid-template-columns: 1fr 44px !important
-          grid-template-areas: "titulo boton" "barra barra" !important
-          column-gap: .7rem !important
-          row-gap: .5rem !important
-          padding: .75rem .9rem !important
-          border-radius: 28px !important
+    .podcast-recurso__contenido
+      bottom: 28px !important
+      width: 86% !important
+      padding: .95rem .85rem 1rem !important
 
-        .podcast-recurso__info
-          grid-area: titulo !important
+    .podcast-recurso__audio
+      grid-template-columns: minmax(0, 1fr) 40px !important
+      min-height: 112px !important
+      padding: .75rem .8rem !important
 
-          h5
-            font-size: .92rem !important
-            line-height: 1.15 !important
-            margin-bottom: 0 !important
+    .podcast-recurso__info
+      p
+        font-size: .84rem !important
+        line-height: 1.17 !important
 
-        .podcast-recurso__barra
-          grid-area: barra !important
-          width: 100% !important
-          height: 6px !important
+    .podcast-recurso__boton
+      width: 40px !important
+      min-width: 40px !important
+      height: 40px !important
 
-        .podcast-recurso__boton
-          grid-area: boton !important
-          width: 42px !important
-          height: 42px !important
+
+@media (max-width: 330px)
+  .podcast-recurso.podcast-recurso--final.podcast-recurso--tema7-mobile
+    height: 410px !important
+    min-height: 410px !important
+    max-height: 410px !important
+
+    .podcast-recurso__imagen
+      top: -30px !important
+      width: 270px !important
+      max-width: 88% !important
+
+    .podcast-recurso__contenido
+      bottom: 25px !important
+      width: 84% !important
+      padding: .85rem .75rem .95rem !important
+
+    .podcast-recurso__audio
+      grid-template-columns: minmax(0, 1fr) 38px !important
+      min-height: 130px !important
+      padding: .7rem .75rem !important
+      border-radius: 24px !important
+
+    .podcast-recurso__info
+      p
+        font-size: .8rem !important
+        line-height: 1.16 !important
+
+    .podcast-recurso__boton
+      width: 38px !important
+      min-width: 38px !important
+      height: 38px !important
+
+@media (min-width: 992px) and (max-width: 1400px)
+  .podcast-recurso.podcast-recurso--final.podcast-recurso--tema7-mobile
+    min-height: 355px !important
+    height: 355px !important
+    max-height: 430px !important
+    margin-top: 5.2rem !important
+    padding: 0 !important
+    overflow: visible !important
+
+    .podcast-recurso__imagen
+      top: -8px !important
+      width: 380px !important
+      max-width: 52% !important
+      left: 50% !important
+      transform: translateX(-50%) !important
+
+    .podcast-recurso__contenido
+      position: absolute !important
+      left: 50% !important
+      transform: translateX(-50%) !important
+      width: 86% !important
+      bottom: 18px !important
+      margin: 0 !important
+      padding: 1.4rem 1.5rem !important
+      border-radius: 20px !important
+
+    .podcast-recurso__titulo
+      margin-bottom: .75rem !important
+
+    .podcast-recurso__audio
+      margin-top: .1rem !important
+
+@media (min-width: 768px) and (max-width: 991.98px)
+  .podcast-recurso.podcast-recurso--final.podcast-recurso--tema7-mobile
+    min-height: 420px !important
+    height: 420px !important
+    max-height: none !important
+    margin-top: 5.2rem !important
+    padding: 0 !important
+    overflow: visible !important
+    background: linear-gradient(180deg, #CCD2C0 0%, #CCD2C0 52%, #E8E2CC 52%, #E8E2CC 100%) !important
+
+    .podcast-recurso__imagen
+      position: absolute !important
+      top: 22px !important
+      left: 50% !important
+      transform: translateX(-50%) !important
+      width: 360px !important
+      max-width: 62% !important
+      z-index: 3 !important
+
+    .podcast-recurso__contenido
+      position: absolute !important
+      left: 50% !important
+      bottom: 10px !important
+      transform: translateX(-50%) !important
+      width: 86% !important
+      margin: 0 !important
+      padding: 1.4rem 1.45rem !important
+      border-radius: 22px !important
+      z-index: 2 !important
+
+    .podcast-recurso__titulo
+      margin-bottom: .85rem !important
+
+    .podcast-recurso__audio
+      min-height: 84px !important
+
+@media (min-width: 400px) and (max-width: 430px)
+  .podcast-recurso.podcast-recurso--final.podcast-recurso--tema7-mobile
+    .podcast-recurso__imagen
+      top: 0 !important
+      transform: translate(-50%, -16px) !important
+
+@media (min-width: 360px) and (max-width: 390px)
+  .podcast-recurso.podcast-recurso--final.podcast-recurso--tema7-mobile
+    .podcast-recurso__imagen
+      top: -38px !important
+      transform: translate(-50%, 45px) !important
+
+@media (max-width: 330px)
+  .podcast-recurso.podcast-recurso--final.podcast-recurso--tema7-mobile
+    .podcast-recurso__imagen
+      top: -30px !important
+      transform: translate(-50%, 71px) !important
+
+    
+
 
 .recurso-tarjetas-comunicacion
   gap: 0

@@ -46,22 +46,19 @@
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
         p Para el caso de los museos, estos perfiles abarcan tipologías tan diversas como visitantes recurrentes, estudiantes, docentes, investigadores o usuarios en su primer contacto institucional. Cada uno de estos nichos exige enfoques comunicativos diferenciados. De este modo, la segmentación y el perfilado fundamentan la toma de decisiones para asegurar que las estrategias respondan a las demandas reales de la sociedad (Kotler et al., 2008).
-
-    .tarjeta.color-primario.video.p-3.mb-4
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/t3/img-04.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.mb-0 Ingresando al siguiente video, podrá conocer de manera puntual lo relacionado con la segmentación de mercados, información que complementará lo abordado en esta temática:
-            .col-sm-auto
-              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/embed/rndPdop69X0" target="_blank")
-                span Abrir video
-                i.fas.fa-file-video
-
-    p.mb-4 En este contexto, la siguiente figura presenta el proceso de segmentación y perfilado de audiencias como base para la toma de decisiones en la comunicación digital, mostrando cómo la identificación de los diferentes públicos facilita la definición de contenidos, plataformas y estrategias de interacción acordes con sus características:
+        p Ingresando al siguiente video, podrá conocer de manera puntual lo relacionado con la segmentación de mercados, información que complementará lo abordado en esta temática:
     
+    .row.justify-content-center.align-items-center.mb-4           
+      .col-lg-12
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/rndPdop69X0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.justify-content-center.mb-4
+      .col.col-lg-10.col-12
+        .cajon.cajon.C01.color-secundario.px-4.py-3.mb-4
+          p.mb-0 En este contexto, la siguiente figura presenta el proceso de segmentación y perfilado de audiencias como base para la toma de decisiones en la comunicación digital, mostrando cómo la identificación de los diferentes públicos facilita la definición de contenidos, plataformas y estrategias de interacción acordes con sus características:
+
     .row.justify-content-center.figura-flujo-ajuste(data-aos="flip-up")
       .col-lg-12.col-12
         .titulo-sexto.color-acento-contenido
@@ -91,7 +88,7 @@
         .recurso-bloques-digitales__card
           .recurso-bloques-digitales__img
             figure.mb-0
-              img(src='@/assets/curso/temas/t3/img-05.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t3/img-05.png', alt='')
 
           .recurso-bloques-digitales__contenido
             h5 Comportamiento digital
@@ -101,7 +98,7 @@
         .recurso-bloques-digitales__card
           .recurso-bloques-digitales__img
             figure.mb-0
-              img(src='@/assets/curso/temas/t3/img-06.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t3/img-06.png', alt='')
 
           .recurso-bloques-digitales__contenido
             h5 Intereses temáticos
@@ -116,7 +113,7 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3. Estructura de las comunidades virtuales
 
-    p Las comunidades virtuales se conforman a partir de personas que comparten intereses, experiencias o temas de interés común y mantienen relaciones de intercambio mediante plataformas digitales. En el escenario cultural, estas comunidades suelen desarrollarse alrededor de museos, proyectos patrimoniales, iniciativas de memoria, colecciones o procesos de divulgación.
+    p Las comunidades virtuales se conforman a partir de personas que comparten intereses, experiencias o temas comunes y mantienen relaciones de intercambio mediante plataformas digitales. En el escenario cultural, estas comunidades suelen desarrollarse alrededor de museos, proyectos patrimoniales, iniciativas de memoria, colecciones o procesos de divulgación.
     p.mb-4 Su estructura puede analizarse a partir de diferentes elementos:
 
     .row.mb-4
@@ -223,14 +220,15 @@
 
     .row.justify-content-center.mb-4
       .col-lg-8.col-12
-        .podcast-recurso.podcast-recurso--final.podcast-recurso--tema3-mobile
+        .podcast-recurso.podcast-recurso--final.podcast-recurso--tema7-mobile
           .podcast-recurso__imagen
-            img(src='@/assets/curso/temas/t3/img-16.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t3/img-16.svg', alt='')
 
           .podcast-recurso__contenido
+            h4.podcast-recurso__titulo.mb-2 Pódcast
             .podcast-recurso__audio
               .podcast-recurso__info
-                h5.mb-1 Roles y dinámicas de interacción en comunidades digitales
+                p.mb-1 Construyendo comunidades digitales alrededor del patrimonio cultural 
                 span {{ tiempoActual }} / {{ duracionAudio }}
 
               .podcast-recurso__barra(@click="cambiarTiempoAudio")

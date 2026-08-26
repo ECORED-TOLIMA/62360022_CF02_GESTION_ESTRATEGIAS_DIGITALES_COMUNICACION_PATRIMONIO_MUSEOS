@@ -25,7 +25,7 @@
       .col-lg-3.col-md-5.col-12
         .recurso-ley-patrimonio__img
           figure.mb-0
-            img(src='@/assets/curso/temas/t2/img-02.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t2/img-02.svg', alt='')
 
       .col-lg-7.col-md-7.col-12
         .recurso-ley-patrimonio__texto
@@ -135,7 +135,7 @@
       h2 2.3. Estrategias multiformato y narrativa transmedia
 
     p Las plataformas digitales permiten desarrollar un mismo tema a través de múltiples lenguajes. Esta posibilidad sustenta las estrategias multiformato, entendidas como la articulación planificada de diversos recursos comunicativos para ofrecer mensajes complementarios a un mismo contenido.
-    p.mb-4 Esta diversificación responde directamente a la diversidad de intereses entre los usuarios, encontrando:
+    p.mb-4 Esta diversificación responde directamente a la diversidad de intereses de los usuarios, entre los que se encuentran:
 
     .tarjeta--container.row.mb-4
       .col-md.tarjeta.color-primario.cafe.claro.p-5
@@ -211,7 +211,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10.col-12
         .tarjeta.tarjeta--C03.p-4.mb-0
-          p.text-center.mb-0(data-aos="fade-down") Por lo tanto, adaptar un contenido Implica identificar los núcleos informativos esenciales del mensaje y reorganizarlos estratégicamente según las características del medio seleccionado, garantizando la coherencia conceptual sin sacrificar la claridad. 
+          p.text-center.mb-0(data-aos="fade-down") Por lo tanto, adaptar un contenido implica identificar los núcleos informativos esenciales del mensaje y reorganizarlos estratégicamente según las características del medio seleccionado, garantizando la coherencia conceptual sin sacrificar la claridad. 
 
 </template>
 

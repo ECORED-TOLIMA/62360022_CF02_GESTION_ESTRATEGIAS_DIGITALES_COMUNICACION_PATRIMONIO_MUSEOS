@@ -42,7 +42,7 @@
         .recurso-tarjetas-comunicacion__card
           .recurso-tarjetas-comunicacion__img
             figure.mb-0
-              img(src='@/assets/curso/temas/t4/img-03.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t4/img-03.png', alt='')
 
           .recurso-tarjetas-comunicacion__contenido
             h5 Sincrónicas
@@ -52,7 +52,7 @@
         .recurso-tarjetas-comunicacion__card
           .recurso-tarjetas-comunicacion__img
             figure.mb-0
-              img(src='@/assets/curso/temas/t4/img-04.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t4/img-04.png', alt='')
 
           .recurso-tarjetas-comunicacion__contenido
             h5 Asincrónicas
@@ -118,7 +118,7 @@
             tbody
               tr(data-aos="fade-right")
                 td(style="background-color: #F6F6F6;") Momento de la comunicación.
-                td(style="background-color: #F6F6F6;") Sincrónica
+                td(style="background-color: #F6F6F6;") Sincrónica.
                 td(style="background-color: #F6F6F6;") Ocurre en tiempo real y permite respuestas inmediatas entre los participantes.
                 td(style="background-color: #F6F6F6;") Transmisiones en vivo, recorridos virtuales guiados, chats y sesiones de preguntas y respuestas.
               tr(data-aos="fade-right")
@@ -170,7 +170,7 @@
             figure
               img(src='@/assets/curso/temas/t4/img-10.svg', alt='')          
         h3.text-center Conductas proscritas
-        p.mb-0 Implican evitar mensajes ofensivos, expresiones discriminatorias, comentarios de odio, la difusión de información falsa o no verificada, el uso de lenguaje agresivo o provocador, la divulgación de datos personales sin autorización, el acoso digital, el spam y cualquier comportamiento que dificulte la participación equitativa, genere conflictos o afecte el desarrollo respetuoso de las interacciones en los entornos digitales.
+        p.mb-0 Implican evitar mensajes ofensivos, expresiones discriminatorias, comentarios de odio, la difusión de información falsa o no verificada, el uso de lenguaje agresivo o provocador, la divulgación de datos personales sin autorización, el acoso digital, el #[em spam] y cualquier comportamiento que dificulte la participación equitativa, genere conflictos o afecte el desarrollo respetuoso de las interacciones en los entornos digitales.
 
     .row.justify-content-center
       .col.col-lg-10.col-12
@@ -180,19 +180,14 @@
       .col.col-lg-10.col-12
         figure.mb-4
           img(src='@/assets/curso/temas/t4/img-11.png', alt='')
+    
+        p.mb-4 Para ampliar los conceptos sobre la netiqueta en medios digitales, se invita a consultar el siguiente video, en el que un experto en el área explica de manera clara los principales aspectos y recomendaciones relacionados con esta importante temática:
 
-    .tarjeta.color-primario.video.p-3
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/t3/img-04.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.mb-0 Para ampliar los conceptos sobre la netiqueta en medios digitales, se invita a consultar el siguiente video, en el que un experto en el área explica de manera clara los principales aspectos y recomendaciones relacionados con esta importante temática:
-            .col-sm-auto
-              a.boton.color-acento-contenido.video.texto-blanco(href="https://www.youtube.com/embed/nETS1sXMKbw" target="_blank")
-                span Abrir video
-                i.fas.fa-file-video
+    .row.justify-content-center.align-items-center           
+      .col-lg-12
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/nETS1sXMKbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
 

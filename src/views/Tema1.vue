@@ -32,25 +32,25 @@
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad.crd--fondo-t1
           figure.mb-4
-            img(src="@/assets/curso/temas/t1/img-02.svg", alt="alt").img80.m-auto
+            img(src="@/assets/curso/temas/t1/img-02.svg", alt="").img80.m-auto
           h4.text-center Publicación de contenidos
           p.mb-0 Permiten difundir textos, imágenes, videos, audios y recursos interactivos.
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad.crd--fondo-t1
           figure.mb-4
-            img(src="@/assets/curso/temas/t1/img-03.svg", alt="alt").img80.m-auto
+            img(src="@/assets/curso/temas/t1/img-03.svg", alt="").img80.m-auto
           h4.text-center Organización de información
           p.mb-0 Facilitan la clasificación y consulta de colecciones, documentos y materiales educativos.
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad.crd--fondo-t1
           figure.mb-4
-            img(src="@/assets/curso/temas/t1/img-04.svg", alt="alt").img80.m-auto
+            img(src="@/assets/curso/temas/t1/img-04.svg", alt="").img80.m-auto
           h4.text-center Acceso a recursos culturales
           p.mb-0 Amplían las posibilidades de consulta para personas ubicadas en distintos contextos geográficos.
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad.crd--fondo-t1
           figure.mb-4
-            img(src="@/assets/curso/temas/t1/img-05.svg", alt="alt").img80.m-auto
+            img(src="@/assets/curso/temas/t1/img-05.svg", alt="").img80.m-auto
           h4.text-center Interacción con los públicos
           p.mb-0 Ofrecen espacios para comentarios, preguntas, participación en actividades y construcción de diálogo con las audiencias.
 
@@ -156,7 +156,7 @@
       .col-lg-3.col-md-5.col-12
         .recurso-ley-patrimonio__img
           figure.mb-0
-            img(src='@/assets/curso/temas/t1/img-14.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t1/img-14.svg', alt='')
 
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
@@ -269,7 +269,7 @@ export default {
       {
         titulo: 'Plataformas de audio',
         texto:
-          'Facilitan la distribución de podcasts, relatos sonoros, entrevistas y programas especializados. Constituyen una alternativa accesible para divulgar contenidos culturales mediante narraciones y recursos basados en la escucha.',
+          'Facilitan la distribución de pódcast, relatos sonoros, entrevistas y programas especializados. Constituyen una alternativa accesible para divulgar contenidos culturales mediante narraciones y recursos basados en la escucha.',
         imagen: img10,
       },
       {

@@ -261,7 +261,7 @@ export default {
     {
       termino: 'Formatos digitales',
       significado:
-        'diferentes tipos de soportes o recursos utilizados para presentar información en entornos digitales, como publicaciones, videos, infografías o podcasts.',
+        'diferentes tipos de soportes o recursos utilizados para presentar información en entornos digitales, como publicaciones, videos, infografías o pódcast.',
     },
     {
       termino: 'Interfaces',
@@ -325,7 +325,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

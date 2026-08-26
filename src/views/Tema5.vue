@@ -138,21 +138,21 @@
         .crd.crd--grayGrad
           .bottomCircle.mb-5
             figure
-              img(src="@/assets/curso/temas/t5/img-12.svg", alt="alt").img90.m-auto
+              img(src="@/assets/curso/temas/t5/img-12.svg", alt="").img90.m-auto
           h4.text-center Mensaje
           p Corresponde a la información, el conocimiento o la experiencia cultural que se desea comunicar. Su contenido debe ser claro, pertinente y coherente con los objetivos institucionales, de manera que facilite la comprensión y el acercamiento de las audiencias al patrimonio cultural.
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad
           .bottomCircle.mb-5
             figure
-              img(src="@/assets/curso/temas/t5/img-13.svg", alt="alt").img90.m-auto
+              img(src="@/assets/curso/temas/t5/img-13.svg", alt="").img90.m-auto
           h4.text-center Formato
-          p Es el recurso utilizado para presentar la información, como textos, imágenes, videos, infografías, podcasts o experiencias interactivas. La selección del formato debe responder a las características del contenido, al canal de difusión y a las necesidades de las audiencias para favorecer una comunicación más efectiva.
+          p Es el recurso utilizado para presentar la información, como textos, imágenes, videos, infografías, pódcast o experiencias interactivas. La selección del formato debe responder a las características del contenido, al canal de difusión y a las necesidades de las audiencias para favorecer una comunicación más efectiva.
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad
           .bottomCircle.mb-5
             figure
-              img(src="@/assets/curso/temas/t5/img-14.svg", alt="alt").img90.m-auto
+              img(src="@/assets/curso/temas/t5/img-14.svg", alt="").img90.m-auto
           h4.text-center Audiencia
           p Hace referencia al grupo de personas al que se dirige el contenido y que lo interpreta desde sus propios intereses, conocimientos y experiencias. Conocer las características de la audiencia permite adaptar los mensajes y los formatos para promover una mayor comprensión, participación y apropiación de los contenidos culturales.
 
@@ -180,49 +180,49 @@
       .row.justify-content-center.align-items-end.my-0.BG06-row
         .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/t5/img-16.png", alt="alt")
+            img(src="@/assets/curso/temas/t5/img-16.png", alt="")
         .col-lg-8 
           SlyderF.custom.color-acento-botones(columnas="col-12")
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5
-                  img(src="@/assets/curso/temas/t5/img-17.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t5/img-17.svg", alt="")
               h4 Verificar la información antes de publicar
               p Garantizar que los contenidos sean precisos, verificables y coherentes con las fuentes consultadas.
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5
-                  img(src="@/assets/curso/temas/t5/img-18.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t5/img-18.svg", alt="")
               h4 Utilizar lenguaje claro e inclusivo
               p Presentar los contenidos de manera comprensible para diferentes públicos, evitando expresiones ambiguas o excesivamente técnicas.
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5
-                  img(src="@/assets/curso/temas/t5/img-19.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t5/img-19.svg", alt="")
               h4 Mantener coherencia institucional
               p Asegurar que los contenidos respondan a los objetivos, la misión y las líneas de trabajo de la institución cultural.
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5
-                  img(src="@/assets/curso/temas/t5/img-20.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t5/img-20.svg", alt="")
               h4 Respetar los derechos de autor y la propiedad intelectual
               p Reconocer adecuadamente las fuentes de información y cumplir las condiciones de uso de los materiales empleados.
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5
-                  img(src="@/assets/curso/temas/t5/img-21.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t5/img-21.svg", alt="")
               h4 Proteger los datos personales
               p Aplicar criterios de privacidad y seguridad en el tratamiento de fotografías, testimonios y demás contenidos relacionados con las personas.
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5
-                  img(src="@/assets/curso/temas/t5/img-22.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t5/img-22.svg", alt="")
               h4 Realizar seguimiento a las audiencias
               p Analizar el comportamiento de los usuarios para identificar intereses, necesidades de información y oportunidades de mejora.
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5
-                  img(src="@/assets/curso/temas/t5/img-23.svg", alt="alt")
+                  img(src="@/assets/curso/temas/t5/img-23.svg", alt="")
               h4 Promover espacios respetuosos de interacción
               p Favorecer el diálogo constructivo y la participación responsable dentro de las plataformas institucionales.
 
